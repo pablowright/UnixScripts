@@ -1,0 +1,10 @@
+ssh -Yf wrightp@linux-1.cpsboe.k12.oh.us xload -fg "black" -bg "DarkSlateBlue" -geometry 110x80+10+1
+ssh -Yf wrightp@linux-2.cpsboe.k12.oh.us xload -fg "black" -bg "LightSlateGray" -geometry 110x80+121+1
+ssh -Yf wrightp@linux-3.cpsboe.k12.oh.us xload -fg "black" -bg "DarkSlateGray" -geometry 110x80+232+1
+ssh -Yf wrightp@linux-4.cpsboe.k12.oh.us xload -fg "black" -bg "slategrey" -geometry 110x80+343+1
+
+
+ssh -Yf wrightp@linux-1.cpsboe.k12.oh.us xload -fg "black" -bg "DarkSlateBlue" -label LINUX-1-DNS-3 -geometry 110x80+10+1
+ssh -Yf wrightp@linux-2.cpsboe.k12.oh.us xload -fg "black" -bg "LightSlateGray" -label LINUX-2-DNS-1 -geometry 110x80+121+1
+ssh -Yf wrightp@linux-3.cpsboe.k12.oh.us xload -fg "black" -bg "DarkSlateGray" -label LINUX-3-DNS-2 -geometry 110x80+232+1
+ssh -Yf wrightp@linux-4.cpsboe.k12.oh.us xload -fg "black" -bg "slategrey" -label LINUX-4-BKUP -geometry 110x80+343+1
